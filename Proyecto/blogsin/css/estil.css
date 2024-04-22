@@ -1,0 +1,122 @@
+ul{
+    text-decoration: none;
+}
+#titulo{
+    text-align: center;
+    font-size: 69px;
+    font-family: monospace;
+    background-color: hsl(39, 100%, 50%);
+    text-align: center;
+}
+#sub1{
+    font-size: 40px;
+    text-align: center;
+    font-family: fantasy;
+}
+#divv{
+    background-color: black;
+    background-size: auto;
+}
+#fut p{
+    font-size:20;
+    color: white;
+    font-family: monospace;
+    text-align: center;
+}
+#sub2{
+    text-align: center;
+    font font-size:30;
+    background-color: orange;
+     margin-right: 80px;
+    margin-left: 80px;
+    
+}
+#tit{
+    color:rgb(255, 242, 255);
+    background-color:#000000;
+    background-size: auto;
+}
+#giff{
+    display: flex;
+    padding-left: 430px;
+}
+.rojo{
+    color: crimson;
+}
+#ache{
+    color: green;
+}
+#direc{
+    color:darkorange;
+}
+.izquierda{
+    background-color: #FFDD95;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    
+}
+.fondo{
+    margin: 15px 15px 40px 40px;
+    width: 20%; 
+    padding: 20px;
+        display: inline-block;
+
+}
+.linea{
+    display: inline-block;
+}
+.c{
+    color:white;
+    text-decoration: none;
+    padding: 68px;
+}
+#nav{
+    display:flex;
+    background-color: gray;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    width: auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    justify-content: space-evenly;
+ 
+    
+}
+.c:hover{
+    background-color:#FFFFFF;
+    color: black;
+}
+@media(max-width:975px){
+    #nav{
+        display: flex;
+        background-color: black;
+        flex-direction: column;
+        border-color: dimgray;
+        border-style: double;
+    }
+    .c{
+        border-style: dotted;
+        border-color: white;
+    }
+}
+.flex {
+    display: flex;
+}
+.cont{
+    margin:0 auto;
+    width: 90%;
+}
+.tex{
+    text-align: center;
+}
+.bor2{
+    border-style: dotted;
+    border-color: darkgray;
+}
+.stx{
+    background-color: palegoldenrod;
+    font-family: monospace;
+    font-size: 20px;
+}
